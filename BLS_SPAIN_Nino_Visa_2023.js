@@ -15,7 +15,7 @@ var AppointmentTime = "11:30 - 11:45";        // Appointment Time
 var lastNames ="Nino";                // LEST NAME
 var firstNames ="Benslimane_Visa2023";              //FURST NEME
 var births ="1986-04-18";                  //Date Of Birth
-var passNumbers ="142745658";        //Passport Number
+var passNumbers ="152745658";        //Passport Number
 var issueDates ="2014-04-22";              //Passport Issue Date
 var expiryDates ="2024-04-21";             //Passport Expiry Date
 var pptissuePalaces ="NAAMA";          //Passport Issue Place
@@ -35,10 +35,10 @@ $("#passportType").selectedIndex = "7";
    for(var i = 0; i<=document.scripts.length; i++){
        if (document.scripts[i].text.indexOf("available_dates") != -1) {
        code = document.scripts[i].text;
-           braihimvisa();
+           Ninouvisa();
        }
    }
-   function brahimvisa() {
+   function Ninouvisa() {
    var bgn = code.indexOf("available_dates");
    var end = code.indexOf("fullCapicity_dates");
    var table = code.slice(bgn+20, end-9);
